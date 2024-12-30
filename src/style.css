@@ -117,7 +117,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+  padding: 50px;
 }
 
 .headshot-container {
@@ -132,11 +132,11 @@ p {
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(6, auto);
 }
 
 .project-card {
-  width: 230px;
+  width: 220px;
   height: 400px;
   box-shadow: 5px 5px 20px grey;
   margin: 8px;
@@ -223,4 +223,70 @@ a {
   .project-container {
     grid-template-columns: repeat(4, auto);
   }
+
+  .personal-area {
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 340px;
+  }
+  .personal-text > .button > a {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .personal-text > .button {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 120px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  #nav-list {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .information > h2 {
+    font-size: 70px;
+  }
+  .information > p {
+    font-size: large;
+    font-weight: 500;
+    text-justify: inter-word;
+  }
+  .social > svg {
+    height: 80px;
+    width: 80px;
+  }
+
+  .sub-section-alternative > h2 {
+    font-size: 70px;
+    font-weight: bolder;
+  }
+
+  .project-card > h3 {
+    font-size: 30px;
+  }
+
+  .project-link-web {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .project-link-git {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 420px) {
 }
