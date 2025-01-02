@@ -219,7 +219,13 @@ a {
   }
 }
 
-@media screen and (max-width: 1320px) and (min-width: 421px) {
+@media screen and (max-width: 1440px) and (min-width: 1280px) {
+  .project-container {
+    grid-template-columns: repeat(7, auto);
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 421px) {
   .project-container {
     grid-template-columns: repeat(4, auto);
   }
