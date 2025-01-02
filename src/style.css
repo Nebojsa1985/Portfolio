@@ -221,7 +221,7 @@ a {
 
 @media screen and (max-width: 1440px) and (min-width: 1280px) {
   .project-container {
-    grid-template-columns: repeat(7, auto);
+    grid-template-columns: repeat(5, auto);
   }
 }
 
